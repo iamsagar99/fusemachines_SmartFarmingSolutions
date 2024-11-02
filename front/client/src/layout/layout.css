@@ -1,0 +1,35 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Adjust as needed */
+    padding: 10px 20px;
+  }
+  
+  .left-items h1 {
+    color: white;
+    font-size: 30px; 
+    /* margin-left:60%; */
+    margin-left: 40vw !important;
+  }
+  
+  .center-items .google-icon {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .right-items .toggle-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .right-items .toggle-button i {
+    margin-right: 5px !important;
+  }
+  

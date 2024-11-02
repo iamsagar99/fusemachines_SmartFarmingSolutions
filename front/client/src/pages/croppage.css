@@ -1,0 +1,57 @@
+.crop-prediction-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .crop-form,
+  .crop-result {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .crop-result {
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    .crop-prediction-container.has-result {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .crop-prediction-container.has-result .crop-form,
+    .crop-prediction-container.has-result .crop-result {
+      width: 48%;
+    }
+  
+    .crop-prediction-container.has-result .crop-result {
+      margin-top: 0;
+    }
+  }
+  
+  /* You may need to adjust these styles based on your form component */
+  .crop-form input,
+  .crop-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .crop-form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+  }
